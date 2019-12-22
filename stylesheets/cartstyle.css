@@ -1,0 +1,219 @@
+#tabbed_box_1 {
+	margin: 0px auto 0px auto;
+	width:960px;
+        
+}
+
+
+
+table, td, th {
+    border: 2px solid Black;
+}
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #4775D1;
+    color: white;
+	 height: 30px
+}
+
+h3
+{
+
+position:relative;
+	
+	left:400px;
+
+color: white;
+
+}
+
+
+
+
+.tabbed_box h4 {
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	font-size:22px;
+        font-weight:700;
+	color:#fff;
+	letter-spacing:-1px;
+	margin-bottom:10px;
+        text-transform:uppercase;
+        text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+        padding:9px 0px 10px 20px;
+	background:url(../images/box_text_bg.png) top left repeat-x;
+	height:40px;
+        display:block;
+}
+.tabbed_box h4 small {
+	color:#e3e9ec;
+	font-weight:normal;
+	font-size:12px;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	text-transform:uppercase;
+	position:relative;
+	top:-4px;
+	left:6px;
+	letter-spacing:0px;
+}
+.tabbed_area {
+	border:0.5px solid #494e52;
+	background: #000;
+	padding:8px;	
+}
+
+ul.tabs {
+	margin:0px; padding:0px;
+	margin-top:5px;
+	margin-bottom:6px;
+}
+ul.tabs li {
+	list-style:none;
+	display:inline;
+}
+ul.tabs li a {
+	background-color:#464c54;
+	color:#fff;
+	padding:8px 14px 8px 14px;
+	text-decoration:none;
+	font-size:14px;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	border:1px solid #464c54;
+	background:url(../images/box_text_bg.png) top left repeat-x;
+	background-repeat:repeat-x;	 
+	background-position:top;
+        
+}
+ul.tabs li a:hover {
+	background-color:#2f343a;
+	border-color:#2f343a;
+        text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+	text-decoration:none;
+	color:#ccc;
+	background-position:0px -66px;
+}
+ul.tabs li a.active {
+	background-color:#000;
+	color:#fff;
+	border:1px solid #464c54; 
+	border-bottom: 0.5px solid #ffffff;
+	background-image:url(images/tab_on.jpg);
+	background-repeat:repeat-x;
+	background-position:top;	
+}
+.content {
+	background-color:#000;
+	padding:10px;
+	border:1px solid #464c54; 	
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	background-image:url(images/content_bottom.jpg);
+	background-repeat:repeat-x;	 
+	background-position:bottom;	
+}
+#content_2, #content_3 { display:none; }
+
+
+
+
+.content ul {
+	margin:0px;
+	padding:0px 20px 0px 20px;
+}
+.content ul li {
+	list-style:none;
+        border-bottom:1px solid #d6dde0;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:15px;
+        color:#fff;
+}
+.content ul li:last-child {
+	border-bottom:none;
+}
+.content ul li table{
+        color:#fff;
+        text-aligen:center;
+        padding-top:5px;
+}
+.content ul li table th{
+        background:url(../images/media_bg.png) center no-repeat;
+        margin:5px 5px 5px 0px;
+	float:center;
+	width:112px;
+	height:94px;
+        padding:12px;
+        
+
+}
+.content ul li table td{
+        text-align: center;
+        padding-top:1px;
+	padding-bottom:1px;
+}
+.content ul li table img{
+        color:#fff;
+        height:86px;
+        width:93px;
+        padding:12px;
+        display:block;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	transition:all 0.35s ease-in-out;
+	/* Firefox 4 */
+	-moz-transition:all 0.35s ease-in-out;
+	/* Safari and Chrome */
+	-webkit-transition:all 0.35s ease-in-out;
+	/* Opera */
+	-o-transition:all 0.35s ease-in-out;
+}
+.content ul li table img:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	transition:all 0.35s ease-in-out;
+	/* Firefox 4 */
+	-moz-transition:all 0.35s ease-in-out;
+	/* Safari and Chrome */
+	-webkit-transition:all 0.35s ease-in-out;
+	/* Opera */
+	-o-transition:all 0.35s ease-in-out;
+}
+.content ul li a {
+	text-decoration:none;
+	color:#fff;
+}
+.content ul li  small {
+	color:#fff;
+	font-size:11px;
+	text-transform:uppercase;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	position:relative;
+        text-align: center;
+	left:0px;
+	top:0px;
+}
+.content ul li a:hover {
+	color:#3BB9FF;
+}
+.content ul li a:hover small {
+	color:#baae8e;
+}
+.content ul li table button:hover {
+        color:#3BB9FF;
+}
+.content ul li button:hover {
+        color:#3BB9FF;
+}
+
+
+
+
